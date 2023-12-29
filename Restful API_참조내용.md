@@ -1,14 +1,13 @@
-## 단순 테스트용
+## Git 설정 및 프로젝트 생성하기
+- 단순 테스트용
+    - 저장소 이름: SP_BO_LARAVEL_231215
+    - 설명: Laravel v10.37.3(PHP v8.1.4)을 이용한 Restful API 샘플용
+    - composer create-project laravel/laravel SP_BO_LARAVEL_231215
 
-- 저장소 이름: SP_BO_LARAVEL_231215
-- 설명: Laravel v10.37.3(PHP v8.1.4)을 이용한 Restful API 샘플용
-- composer create-project laravel/laravel SP_BO_LARAVEL_231215
-
-## 최종 확인용
-
-- 저장소 이름: SP_BO_LARAVEL_RESTAPI_V1
-- 설명: Laravel v10.37.3(PHP v8.1.4)을 이용한 Restful API 샘플용
-- composer create-project laravel/laravel SP_BO_LARAVEL_RESTAPI_V1
+- 최종 확인용
+    - 저장소 이름: SP_BO_LARAVEL_RESTAPI_V1
+    - 설명: Laravel v10.37.3(PHP v8.1.4)을 이용한 Restful API 샘플용
+    - composer create-project laravel/laravel SP_BO_LARAVEL_RESTAPI_V1
 
 ## 필수 처리 할 내용
 
@@ -16,6 +15,12 @@
 - 링크 폴더 설정
 - V1형태로 변경 처리
 - 언어 설정 처리
+
+## 데이터베이스명
+
+```text
+db_laravel10_restfulapi
+```
 
 ## 사용한 artisan 명령어 정리
 
@@ -33,7 +38,7 @@ php artisan make:controller Api/PostController
 php artisan migrate
 ```
 
-### 커밋 메세지
+### 커밋하기 순서
 
 > Laravel 10 설치
 
